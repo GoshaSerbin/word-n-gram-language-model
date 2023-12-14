@@ -109,7 +109,7 @@ def take_rated_sentence():
     return random_text, rating
 
 
-bot = telebot.TeleBot("6657863250:AAG7UJg-_BPQH-v2SmOwzgNuyjXt6Eer5aY")
+bot = telebot.TeleBot("")
 bot_name = bot.get_me().first_name
 
 
